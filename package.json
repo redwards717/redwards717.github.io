@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "- `gulp` builds everything\r - `gulp dev` uses browserSync & opens a project in the browser. Reloads when you save.\r - `gulp sass` compiles SCSS files and converts them to CSS.\r - `gulp minify-css` minifies the compiled CSS file\r - `gulp minify-js` minifies the themes JS file\r - `gulp copy` copies dependencies from node_modules to the tools directory \r - `gulp watch` watches for SCSS changes.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.24.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-filter": "^5.1.0",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redwards717/redwards717.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redwards717/redwards717.github.io/issues"
+  },
+  "homepage": "https://github.com/redwards717/redwards717.github.io#readme"
+}
