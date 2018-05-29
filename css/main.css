@@ -1,5 +1,68 @@
-/* General CSS stuff goes here. */
+/* Variables used throughout will go here. */
+/* CSS code for the Navbar section. */
+.navbar-brand {
+  text-align: left; }
+
+/* CSS code for the Header section. */
+.jumbotron {
+  background-image: url("/assets/img/bikesBackground1.jpg");
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.jumbotron h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white; }
+
+.jumbotron p {
+  text-align: center;
+  color: white; }
+
+/* CSS code for the Portfolio section. */
+#portfolio img {
+  width: 450px;
+  height: 300px; }
+
+#portfolio {
+  background-color: #8fd2e9; }
+
+#portfolio h1 {
+  text-align: center; }
+
+#portfolio p {
+  text-align: center;
+  font-size: 16px; }
+
+/* CSS code for the About section. */
+#myPic {
+  border: white 3px solid;
+  border-radius: 100%;
+  background-image: url("/assets/img/profile.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover; }
+
+#about {
+  background: lightblue;
+  margin-top: 50px; }
 
 body {
-    background-color: rgb(56, 119, 87);
-}
+  background: lightblue; }
+
+/* CSS code for the Contact section. */
+#contact h1 {
+  text-align: center; }
+
+#contact h4 {
+  text-align: center; }
+
+.links {
+  position: relative;
+  left: 250px; }
+
+/* CSS code for the Footer section. */
+footer p {
+  font-size: 12px; }

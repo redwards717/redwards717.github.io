@@ -28,7 +28,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">EFA Starter Template</a>
+                            <a class="navbar-brand" href="#">Rhys Edwards</a>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
@@ -36,13 +36,13 @@
                                     <a href="#">Home</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#about">About</a>
+                                    <a href="#about">About Me</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#portfolio">My Projects</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#contact">Contact</a>
+                                    <a href="#contact">Contact Me</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,23 +52,144 @@
 
     <!-- Header -->
     <header>
-        <h1>does this work?</h1>
-    </header>
-
-    <!-- Portfolio -->
-    <section>
-    </section>
-
+        <div class="jumbotron" class="container-fluid">
+            <h1>Rhys Edwards</h1>
+            <p>Soon to be developer</p>
+            
+            
+          </div>
+        </header>
     <!-- About -->
-    <section>
+        <section id="about" class="container-fluid" class="row">
+            <div class="col-sm-1"></div>
+            <div id="myPic" class="col-sm-4"></div>
+            <div class="col-sm-6">
+                <h2>About Me</h2>
+                <hr class="my-4">
+                <p id="aboutText">I am currently a student at Eleven Fifty Academy in the intensive 12 week Javascript program.  I am learning Javascript, but more importantly I am gaining knowledge of how to efficiently learn programming languages and finding that I have an affinity for quickly picking up the concepts. I am also discovering that I truly enjoy doing this, and that enjoyment will fuel my life long learning in this career path.</p>
+                <hr class="my-2">
+                <p>Download my <a href="https://github.com/redwards717/resume/raw/master/Resume.pdf" target="new">resume</a></p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+    <!-- Portfolio -->
+    <section id="portfolio" class="container-fluid">
+        <h1>My Projects</h1>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://redwards717.github.io/apiProject/" target="empty">
+                    <img src="/assets/img/API1.png">
+                </a>
+                <p>1150 Academy API Project - Skills after 2 weeks</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://redwards717.github.io/storeFront/" target="empty">
+                    <img src="/assets/img/store1.png">
+                </a>
+                <p>1150 Academy Store Front website Project- Skills after 1 week</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://codepen.io/redwards717/pen/yjqXmv" target="empty">
+                    <img src="/assets/img/bear1.png">
+                </a>
+                <p>1150 Academy CSS Project- Skills after 1 day</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="/assets/img/construction.jpg">
+                    </a>
+                    <p>Coming Soon!</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="/assets/img/construction.jpg">
+                    </a>
+                    <p>Coming Soon!</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="/assets/img/construction.jpg">
+                    </a>
+                    <p>Coming Soon!</p>
+                </div>
+            </div>
     </section>
+    <br>
+
+    
+    
+
 
     <!-- Contact -->
-    <section>
+    <section id="contact">
+        <h1> Contact Me </h1>
+        <hr class="my-4">
+        <div class="container">
+                <div class="row justify-content-around">
+                  <div class="col-md-6">
+                      <form class="form-horizontal" action="https://formspree.io/redwards717@gmail.com" method="post">
+                      <fieldset>
+                        <!-- Name input-->
+                        <div class="form-group">
+                          <label class="col-md-3 control-label" for="name">Name</label>
+                          <div class="col-md-9">
+                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                          </div>
+                        </div>
+                
+                        <!-- Email input-->
+                        <div class="form-group">
+                          <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                          <div class="col-md-9">
+                            <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                          </div>
+                        </div>
+                
+                        <!-- Message body -->
+                        <div class="form-group">
+                          <label class="col-md-3 control-label" for="message">Your message</label>
+                          <div class="col-md-9">
+                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                          </div>
+                        </div>
+                
+                        <!-- Form actions -->
+                        <div class="form-group">
+                          <div class="col-md-12 text-right">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                          </div>
+                        </div>
+                      </fieldset>
+                      </form>
+                    
+                  </div>
+                  <div class="social" class="col-sm-2" class="justify-content-center">
+                        <h4>See me on:</h4>
+                        <hr class="my-2">
+                        <div class="links">
+                            <a href="https://www.linkedin.com/in/rhys-edwards-59a682163/" target="empty"><img src="/assets/img/linkedin.png"></a>
+                            <a href="https://github.com/redwards717" target="empty"><img src="/assets/img/github.png" width="42" height="42"></a>
+                        </div>
+                  </div>
+                </div>
+            </div>
+
     </section>
 
     <!-- Footer -->
     <footer>
+        <p>Copyright © 2018 - Rhys Edwards</p>
     </footer>
 
     <!-- Copyright -->
