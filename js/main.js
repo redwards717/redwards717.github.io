@@ -3,11 +3,11 @@
 
 // apiProj.addEventListener("mouseover",displayProj);
 
-function displayProj(){
-    document.getElementById("hiddenProj").style.visibility="visible"; 
-    console.log("display function called")
-}
-function hideProj(){
-    document.getElementById("hiddenProj").style.display="none";
-    console.log("hide fuction called")
-}
+// function displayProj(){
+//     document.getElementById("hiddenProj").style.visibility="visible"; 
+//     console.log("display function called")
+// }
+// function hideProj(){
+//     document.getElementById("hiddenProj").style.display="hidden";
+//     console.log("hide fuction called")
+// }

@@ -17,34 +17,52 @@ body {
   background-repeat: no-repeat; }
 
 .jumbotron h1 {
-  margin-top: 150px;
-  text-align: center;
+  margin: 290px 0px 0px 300px;
+  text-align: left;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .jumbotron p {
-  text-align: center;
+  margin: 0px 0px 0px 300px;
+  text-align: left;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 /* CSS code for the Portfolio section. */
 #portfolio img {
-  width: 450px;
-  height: 300px; }
+  width: 32em;
+  height: 22em; }
 
 #portfolio {
   background-color: #8fd2e9;
-  padding: 70px 50px 70px 50px; }
+  padding: 5em 3em 11em 3em; }
 
 #portfolio h1 {
   text-align: center; }
 
+#portfolio h4 {
+  text-align: center; }
+
 #portfolio p {
-  text-align: center;
+  text-align: left;
   font-size: 16px; }
 
-#hiddenProj {
-  opacity: 0.5; }
+.hiddenProj {
+  padding: 5px 5px 5px 5px;
+  opacity: 0.0;
+  background-color: #74a7d3;
+  border-radius: 5px;
+  border: 3px white solid;
+  width: 32em;
+  height: 22em;
+  position: absolute;
+  bottom: 0px;
+  transition: 1.5s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.hiddenProj:hover {
+  transform: scale(1.1);
+  opacity: 1; }
 
 /* CSS code for the About section. */
 #myPic {
@@ -73,7 +91,7 @@ body {
   text-align: center; }
 
 #contact {
-  padding: 20px 0px 50px 0px; }
+  padding: 2em 0em 8em 0em; }
 
 /* CSS code for the Footer section. */
 footer p {
