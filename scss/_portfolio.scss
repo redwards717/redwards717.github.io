@@ -1,10 +1,16 @@
 /* CSS code for the Portfolio section. */
+
 #portfolio img{
     width: 450px;
     height: 300px;
+    // transition: all 1s;
 }
+// #portfolio img:hover{
+//     transform: scale(1.1);
+// }
 #portfolio{
     background-color: rgb(143, 210, 233);
+    padding: 70px 50px 70px 50px;
 }
 #portfolio h1{
     text-align: center;
@@ -13,3 +19,18 @@
     text-align: center;
     font-size: 16px;
 }
+#hiddenProj{
+    opacity: 0.5;
+    // visibility: hidden;
+    // background-color: rgba(240, 248, 255, 0.6);
+    // border: 3px white solid;
+    // width: 450px;
+    // height: 300px;
+    // position: absolute;
+    // bottom: 33px;
+    // transition: 1s;
+    // font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+// #hiddenProj:hover{
+//     transform: scale(1.1);
+// }
