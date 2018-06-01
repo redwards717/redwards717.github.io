@@ -3,6 +3,8 @@
 #portfolio img{
     width: 32em;
     height: 22em;
+    max-width: 100%;
+    padding-bottom: 1em 1em 1em 1em;
     // transition: all 1s;
 }
 // #portfolio img:hover{
@@ -10,6 +12,7 @@
 // }
 #portfolio{
     background-color: rgb(143, 210, 233);
+    // background-color: #b0cee7;
     padding: 5em 3em 11em 3em;
 }
 #portfolio h1{
@@ -23,14 +26,16 @@
     font-size: 16px;
 }
 .hiddenProj{
-    padding: 5px 5px 5px 5px;
+    padding: 1em 1em 1em 1em;
     opacity: 0.0;
     background-color: rgb(116, 167, 211);
     border-radius: 5px;
     border: 3px white solid;
     width: 32em;
     height: 22em;
+    max-width: 100%;
     position: absolute;
+    z-index: 1;
     bottom: 0px;
     transition: 1.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
