@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,39 +16,40 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-     <!-- Navigation -->
-     <nav>
-            <div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle text-uppercase rounded" data-toggle="collapse" data-target=".navbar-collapse"
-                                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Rhys Edwards</a>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="active">
-                                    <a href="#">Home</a>
-                                </li>
-                                <li class="active">
-                                    <a href="#about">About Me</a>
-                                </li>
-                                <li class="active">
-                                    <a href="#portfolio">My Projects</a>
-                                </li>
-                                <li class="active">
-                                    <a href="#contact">Contact Me</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                  </div>
+    <!-- Navigation -->
+    <nav>
+        <div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle text-uppercase rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Rhys Edwards</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="#about">About Me</a>
+                        </li>
+                        <li class="active">
+                            <a href="#portfolio">My Projects</a>
+                        </li>
+                        <li class="active">
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <!-- Header -->
@@ -55,133 +57,159 @@
         <div class="jumbotron" class="container-fluid">
             <h1>Rhys Edwards</h1>
             <p>Developer</p>
-            
-            
-          </div>
-        </header>
-        
+
+
+        </div>
+    </header>
+
     <!-- About -->
     <section id="about" class="container-fluid" class="row">
-        <br><br><br>
+        <br>
+        <br>
+        <br>
         <div class="col-sm-1"></div>
         <div id="myPic" class="col-sm-4"></div>
         <div class="col-sm-6">
             <h2>About Me</h2>
-            <hr class="my-4"> 
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link in show active" id="home-tab" data-toggle="tab" href="#computer" role="tab" aria-controls="home" aria-selected="true"><h4>On The Computer</h4></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#bike" role="tab" aria-controls="profile" aria-selected="false"><h4>Away From the Computer</h4></a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="computer" role="tabpanel" aria-labelledby="computer-tab"><br>
-                        <span>I am currently a student at Eleven Fifty Academy in the intensive 12 week Javascript program.  I am learning Javascript, but more importantly I am gaining knowledge of how to efficiently learn programming languages and finding that I have an affinity for quickly picking up the concepts. I am also discovering that I truly enjoy doing this, and that enjoyment will fuel my life long learning in this career path</span>
-                    </div>
-                    <div class="tab-pane fade" id="bike" role="tabpane1" aria-labelledby="bike-tab"><br>
-                        <span>When I am not on the computer my passion is cycling.  I am sponsored by Upland Brewing as an Elite level amature road cyclist.  My free time in the summer is spent traveling around the Mid-West going to races. Through my cycling I had the good fortune to also turn my hobby into a part time career as a writer for cycling magazines.  Samples of some of my writing can be seen on <a href="https://pelotonmagazine.com/author/rhys-edwards/" target="blank">pelotonmagazine.com</a></span>
-                    </div>
-                </div>
-                        
-                        <hr class="my-2">
-                        <p>View my <a href="/Resume.pdf" target="new">resume</a></p>
-                
-            </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        
-        <!-- Portfolio -->
-        <section id="portfolio" class="container-fluid">
-            <h1>My Projects</h1>
             <hr class="my-4">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="https://rce-raceresultsclient.herokuapp.com/" target="empty">
-                        <img src="/assets/img/pern.png">
-                            <div class="hiddenProj">
-                                <h4>PERN Stack Project</h4>
-                                <hr class="my-1">
-                                <p>Full Stack application used to track bicycle racing results and calculate how many USA Cycling points are awarded for the result. Data is saved and individual users can can see thier cumulative points increase as race results continue to be added.
-                                (Test account with data to view:   username/email:   rhys@rhys.com    p/w:  password)
-                                </p>
-                            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link in show active" id="home-tab" data-toggle="tab" href="#computer" role="tab" aria-controls="home" aria-selected="true">
+                        <h4>On The Computer</h4>
                     </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#bike" role="tab" aria-controls="profile" aria-selected="false">
+                        <h4>Away From the Computer</h4>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="computer" role="tabpanel" aria-labelledby="computer-tab">
+                    <br>
+                    <span>I am currently a student at Eleven Fifty Academy in the intensive 12 week Javascript program. I am learning
+                        Javascript, but more importantly I am gaining knowledge of how to efficiently learn programming languages
+                        and finding that I have an affinity for quickly picking up the concepts. I am also discovering that
+                        I truly enjoy doing this, and that enjoyment will fuel my life long learning in this career path</span>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    
-                    <a href="https://myapimapproject.firebaseapp.com/" target="empty">
-                        <img src="/assets/img/API1.png">
-                        <div class="hiddenProj">
-                            <h4>Eleven Fifty Academy Google API Project</h4>
-                            <hr class="my-1">
-                            <p>This project uses the Google API to do a simple showcase of the potential destructive force of different nuclear weapons using HTML, CSS and Javascript.  This is an example of my working knowledge after 2 weeks of the Eleven Fifty Javascript program. </p>
-                        </div>
+                <div class="tab-pane fade" id="bike" role="tabpane1" aria-labelledby="bike-tab">
+                    <br>
+                    <span>When I am not on the computer my passion is cycling. I am sponsored by Upland Brewing as an Elite level
+                        amature road cyclist. My free time in the summer is spent traveling around the Mid-West going to
+                        races. Through my cycling I had the good fortune to also turn my hobby into a part time career as
+                        a writer for cycling magazines. Samples of some of my writing can be seen on
+                        <a href="https://pelotonmagazine.com/author/rhys-edwards/"
+                            target="blank">pelotonmagazine.com</a>
+                    </span>
+                </div>
+            </div>
 
-                    </a>
-                
+            <hr class="my-2">
+            <p>View my
+                <a href="/Resume.pdf" target="new">resume</a>
+            </p>
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="container-fluid">
+        <h1>My Projects</h1>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="https://rce-raceresultsclient.herokuapp.com/" target="empty">
+                    <img src="/assets/img/pern.png">
+                    <div class="hiddenProj">
+                        <h4>PERN Stack Project</h4>
+                        <hr class="my-1">
+                        <p>Full Stack application used to track bicycle racing results and calculate how many USA Cycling points
+                            are awarded for the result. Data is saved and individual users can can see thier cumulative points
+                            increase as race results continue to be added. (Test account with data to view: username/email:
+                            rhys@rhys.com p/w: password)
+                        </p>
+                    </div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-                
-                <a href="https://redwards717.github.io/storeFront/" target="empty">
-                    <img src="/assets/img/store1.png">
-                        <div class="hiddenProj">
-                            <h4>Eleven Fifty Academy Store Front Project</h4>
-                            <hr class="my-1">
-                            <p>My store front is a project using mainly HTML and CSS to create a sample store front website concentrating primarily on layout.  It utilized skills learned in just the first week of the Eleven Fifty Javascript program.</p>
-                        </div> 
+
+                <a href="https://myapimapproject.firebaseapp.com/" target="empty">
+                    <img src="/assets/img/API1.png">
+                    <div class="hiddenProj">
+                        <h4>Eleven Fifty Academy Google API Project</h4>
+                        <hr class="my-1">
+                        <p>This project uses the Google API to do a simple showcase of the potential destructive force of different
+                            nuclear weapons using HTML, CSS and Javascript. This is an example of my working knowledge after
+                            2 weeks of the Eleven Fifty Javascript program. </p>
+                    </div>
+
                 </a>
-                
+
             </div>
-            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="https://hundyp-edr-client.herokuapp.com/landingpage/login" target="empty">
+                    <img src="/assets/img/EDR.PNG">
+                    <div class="hiddenProj">
+                        <h4>Event Driven Results</h4>
+                        <hr class="my-1">
+                        <p>PEAN stack application that takes your current fitness capabilities, and based off of an event of your choosing, will come up with a set of benchmarks that need to be attained along the way for success.</p>
+                    </div>
+                </a>
+            </div>
+
         </div>
         <br>
         <br>
         <br>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
-            <a href="https://codepen.io/redwards717/pen/yjqXmv" target="empty">
-                <img src="/assets/img/bear1.png">
-                <div class="hiddenProj">
-                            <h4>Eleven Fifty Academy CSS creature</h4>
-                            <hr class="my-1">
-                            <p>My day 1 project putting only 4 hours of CSS knowledge to use to make a "creature" with a simple animation.</p>
-                        </div>
+                <a href="https://codepen.io/redwards717/pen/yjqXmv" target="empty">
+                    <img src="/assets/img/bear1.png">
+                    <div class="hiddenProj">
+                        <h4>Eleven Fifty Academy CSS creature</h4>
+                        <hr class="my-1">
+                        <p>My day 1 project putting only 4 hours of CSS knowledge to use to make a "creature" with a simple
+                            animation.</p>
+                    </div>
                 </a>
-                
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+
+                <a href="https://redwards717.github.io/storeFront/" target="empty">
+                    <img src="/assets/img/store1.png">
+                    <div class="hiddenProj">
+                        <h4>Eleven Fifty Academy Store Front Project</h4>
+                        <hr class="my-1">
+                        <p>My store front is a project using mainly HTML and CSS to create a sample store front website concentrating
+                            primarily on layout. It utilized skills learned in just the first week of the Eleven Fifty Javascript
+                            program.</p>
+                    </div>
+                </a>
+
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <a href="">
                     <img src="/assets/img/construction.jpg">
                     <div class="hiddenProj">
                         <h4>Coming soon!</h4>
-                                <hr class="my-1">
-                                <p>This one will be pretty cool too!</p>
-                            </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="">
-                        <img src="/assets/img/construction.jpg">
-                            <div class="hiddenProj">
-                                <h4>Coming soon!</h4>
-                                <hr class="my-1">
-                                <p>Yep, this will probably be neat too!</p>
-                            </div>
-                    </a>
-                </div>
+                        <hr class="my-1">
+                        <p>Yep, this will probably be neat too!</p>
+                    </div>
+                </a>
             </div>
+        </div>
     </section>
     <br>
 
-    
-    
+
+
 
 
     <!-- Contact -->
@@ -190,56 +218,60 @@
         <h1> Contact Me </h1>
         <hr class="my-4">
         <div class="container">
-                <div class="row">
-                  <div class="col-md-6">
-                      <form class="form-horizontal" action="https://formspree.io/redwards717@gmail.com" method="post">
-                      <fieldset>
-                        <!-- Name input-->
-                        <div class="form-group">
-                          <label class="col-md-3 control-label" for="name">Name</label>
-                          <div class="col-md-9">
-                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                          </div>
-                        </div>
-                
-                        <!-- Email input-->
-                        <div class="form-group">
-                          <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                          <div class="col-md-9">
-                            <input id="email" name="email" name="_replyto"type="text" placeholder="Your email" class="form-control">
-                          </div>
-                        </div>
-                
-                        <!-- Message body -->
-                        <div class="form-group">
-                          <label class="col-md-3 control-label" for="message">Your message</label>
-                          <div class="col-md-9">
-                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                          </div>
-                        </div>
-                
-                        <!-- Form actions -->
-                        <div class="form-group">
-                          <div class="col-md-12 text-right">
-                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                          </div>
-                        </div>
-                      </fieldset>
-                      </form>
-                    
-                  </div>
-                  <div class="social" class="col-sm-2" class="justify-content-center">
-                        <h4>See me on:</h4>
-                        <hr class="my-2">
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/rhys-edwards-59a682163" target="empty"><img src="/assets/img/linkedin.png"></a>
-                            <a href="https://github.com/redwards717" target="empty"><img src="/assets/img/github.png" width="42" height="42"></a>
-                        </div>
-                  </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form-horizontal" action="https://formspree.io/redwards717@gmail.com" method="post">
+                        <fieldset>
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <div class="col-md-9">
+                                    <input id="email" name="email" name="_replyto" type="text" placeholder="Your email" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-12 text-right">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                </div>
+                <div class="social" class="col-sm-2" class="justify-content-center">
+                    <h4>See me on:</h4>
+                    <hr class="my-2">
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/rhys-edwards-59a682163" target="empty">
+                            <img src="/assets/img/linkedin.png">
+                        </a>
+                        <a href="https://github.com/redwards717" target="empty">
+                            <img src="/assets/img/github.png" width="42" height="42">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <br>
-            <br>
+        </div>
+        <br>
+        <br>
     </section>
 
     <!-- Footer -->
@@ -249,7 +281,7 @@
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
@@ -264,4 +296,5 @@
     <script src="./tools/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
